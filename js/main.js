@@ -282,7 +282,6 @@ const AudioController = {
   },
   loadAudioData(newItem) {
     this.audioList.innerHTML += this.loadItem(newItem);
-    this.state.current = newItem;
   },
   renderAudios() {
     data.forEach((item) => {
