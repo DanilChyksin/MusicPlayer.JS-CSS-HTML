@@ -117,7 +117,7 @@ const AudioController = {
     const [img] = song.split(".");
     return `
             <div class="current-img">
-              <img class="main-img" src="/img/${img}.jpeg" alt="" />
+              <img class="main-img" src="./img/${img}.jpeg" alt="" />
             </div>
             <div class="current-desc-music">
               <div class="current-gruap">
